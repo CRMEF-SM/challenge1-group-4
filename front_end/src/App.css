@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.grid-temp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-template-areas: "delivered main main main queue";
+}
+
+.header {
+  grid-area: header;
+}
+
+.delivered {
+  grid-area: delivered;
+}
+
+.queue {
+  grid-area: queue;
+}
+
+.main {
+  grid-area: main;
+}
